@@ -1,0 +1,494 @@
+local Tycoon = workspace.Tycoons:FindFirstChild(tostring(game.Players.LocalPlayer.PlayerTycoon.Value)) 
+local PlaceItem = game.ReplicatedStorage.PlaceItem 
+local factorys = workspace.Tycoons:GetChildren() 
+for i =1, #factorys do 
+  if factorys[i].Owner.Value == game.Players.LocalPlayer.Name then 
+        myfac = factorys[i] 
+    end 
+end 
+ local buyItem = game.ReplicatedStorage.BuyItem 
+ 
+placehere = CFrame.new(84, 47.0000038, -84, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(72, 32.0000038, -27, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-27, 47.0000038, -9, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(9, 47.0000038, -9, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-27, 47.0000038, 27, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(9, 47.0000038, 27, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-75, 47.0000038, -84, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-75, 47.0000038, -48, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-75, 47.0000038, -12, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-75, 47.0000038, 24, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-39, 47.0000038, -84, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(81, 23.0000038, -3, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Mega Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(93, 50.0000038, 9, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(72, 56.0000038, -27, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(51, 23.0000038, 78, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(15, 23.0000038, 78, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Standard Platform",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(52.4999695, 5.00000381, -6, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Eggcelent Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-94.5, 9.50000381, -96, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Pizzalyst",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-76.5, 11.0000038, -87, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Frozen Eclipse",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-95.9999695, 3.50000381, -78, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Quantum Clockwork",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-57.000061, 8.00000381, -87, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Massive Quantum Diamond Cleaner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-87, 30.5000038, -94.4999695, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Virtual Gearwork",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-39, 8.00000381, -91.5, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Saturated Catalyst",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-22.5, 3.50000381, -90, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Quantum Ore Polisher",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-9, 8.00000381, -93, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Deadly Spore",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-9, 8.00000381, -75, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Astral Setter",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(28.5, 9.50000381, -87, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Ancient Coliseum",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(43.5, 5.00000381, -93, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Tesla Refuter",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(63, 8.00000381, -93, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Tsar Bomba",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(87, 8.50000381, -93, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Crystallized Engine",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(87, 14.0000038, -72, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Pizza Bombarder",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(69, 11.0000038, -72, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Grandfather Clockwork",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-39, 5.00000381, -70.5, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Searing Heat",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-78, 6.50000381, -63, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Atlantic Monument",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-57, 9.50000381, -57, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Phase Bombarder",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(29.999939, 6.50000381, -63, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Green Tea Kettle",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(87, 11.0000038, -49.500061, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Shard City",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-78, 6.50000381, -45, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Demon Core",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-90, 27.5000038, -75, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Atmospheric Steamwork",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-30, 8.00000381, -51, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Vulcan's Destiny",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-22.5, 3.50000381, -72, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Railgun Cannon",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(0, 5.00000381, -51, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Spirit of Fire",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(27, 8.00000381, -44.9999695, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Father of Freon",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(63, 42.5000038, -24, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Big Alberto",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(51, 6.50000381, -27, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Son of Poison",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-48, 11.0000038, -30, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Brimstone Spires",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-24, 3.50000381, -35.9999695, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Vampire Spore",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(33, 6.50000381, -27, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Plasma Scanner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-6, 8.00000381, -25.5, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Sporest",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(90, 6.50000381, -13.5, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Desert Monument",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-84, 6.50000381, -1.49996948, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Final Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-55.5, 6.50000381, -6, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Spooklord Device",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-34.5000305, 6.50000381, -3, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("True Overlord Device",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(33, 2.00000381, 75.0000305, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Ultimate Conveyor",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(7.5, 6.50000381, -75, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Spooklord Device",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(30, 34.5000038, 81.0000305, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Death Cap",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(90, 57.5000038, -94.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Virtual Enchanter",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(81, 66.5, -21, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Ooftopian Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(87, 62.0000038, -78, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Dreamer's Life",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(69, 6.50000381, -9, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Vulcan's Wrath",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(45, 5.00000381, -6, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Pumpkin Hero",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(84, 5.00000381, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Spooktastic Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-99, 9.50000381, 57, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("⭐ Stargazed Void Star ⭐",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(90, 5.00000381, 15, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Blazing Agriculture",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(48, 6.50000381, 78, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Phantom of Christmas Future",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(60, 8.00000381, 13.5, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Acorn Avenue",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(30, 6.50000381, 18.000061, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Pumpkin Hut",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-3, 8.00000381, 10.5, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Wholesome Skull Blaster",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(99, 3.50000381, 99, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Statue of Knowledge",  placehere, {myfac.Base}) 
+wait(0.01) 
+buyItem:InvokeServer("Basic Furnace",1) 
+wait(0.01) 
+placehere = CFrame.new(-57, 3.50000381, 92.9999695, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Basic Furnace",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-42, 3.50000381, 12.000061, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Sugar Corroder",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-93, 5.00000381, 15.000061, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Pumpkin Pie Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-75.000061, 9.50000381, 21, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Candy Corn Real Estate",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-51, 9.00000381, 33, -1.1920929e-07, 0, -1.00000012, 0, 1, 0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Haunted House",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-21, 12.5000038, 36, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Goliath Skull (Sender)",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(87, 12.5000038, 42, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Goliath Skull (Receiver)",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-36, 59.0000038, 37.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Dreamer's Fright",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-18, 56.0000038, 39, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Dreamer's Might",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(3, 54.5000038, 37.5, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Dreamer's Anguish",  placehere, {myfac.Base}) 
+wait(0.01) 
+buyItem:InvokeServer("Basic Conveyor",1) 
+wait(0.01) 
+placehere = CFrame.new(-63, 2.00000381, 93.0000153, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Basic Conveyor",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(96, 5.00000381, 69, -1.1920929e-07, 0, -1.00000012, 0, 1, 0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Ore Gielder",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(79.500061, 11.0000038, 69, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Ghosdeeri's Antidote",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(93, 5.00000381, 87.000061, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Candycorn Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(96, 5.00000381, 94.500061, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Lollipop-inator",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(76.5, 9.50000381, 87, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Chocolate Forest",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(54, 6.50000381, 94.5, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Pumpkin Patch",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(90, 3.50000381, 99, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Candy Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(59.999939, 8.00000381, 79.5, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Candy Castle",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(44.9999695, 3.50000381, 33, -1.1920929e-07, -0, -1.00000012, 0, 1, -0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Lunar Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(63.000061, 6.50000381, 60, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Pumpkin Spice Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(32.9999695, 3.50000381, 33, -1.1920929e-07, -0, -1.00000012, 0, 1, -0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Lunar Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(20.9999695, 3.50000381, 33, -1.1920929e-07, -0, -1.00000012, 0, 1, -0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Lunar Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(45, 5.00000381, 43.499939, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Chocolate Coater",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(24, 8.00000381, 48.000061, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Frank'n'Cupcake",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(46.500061, 5.00000381, 63, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Gummy Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-21, 3.50000381, 58.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Professional Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-9, 3.50000381, 58.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Professional Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(3, 3.50000381, 58.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Professional Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-33, 3.50000381, 58.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Professional Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(7.5, 3.50000381, 42, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Holy Cheese",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(15.0000305, 80, 30, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Stratospheric Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(45, 5.00000381, 50.999939, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Cookinator",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-61.499939, 3.50000381, 60, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Grand Wafer",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-51.000061, 6.50000381, 60, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Rock",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-42.000061, 3.50000381, 60, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Giant Pretzel",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(6, 57.5000038, 16.500061, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Bubonic Plague",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(81, 41.0000038, -24, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Tsar Bomba",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(27.000061, 11.0000038, 96, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Eerie Marsh",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-79.5, 57.5000038, 32.999939, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Castle of Apocalypse",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-83.999939, 57.5000038, -87, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Plague Doctor",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-79.499939, 60.5000038, -57, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Ghosdeeri's Plague",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-80.999939, 66.5, -25.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Plagued Forest",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-71.999939, 54.5000038, -94.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Silkweaver",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-82.500061, 54.5000038, 12, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Famish Wasteland",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-30.0000305, 54.5000038, -81, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Daestrophe",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-39, 6.50000381, 94.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Portable Pearl Enhancer",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-12, 8.00000381, 96, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Elysium Solemnity",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(18, 53.0000038, -15, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Blazing Agriculture",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-12, 60.5000038, -15, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Enchanted Library",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-25.5, 54.5000038, 15, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Optic Origin",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-33, 53.0000038, -18, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Maintenance Supporter",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-5.99996948, 51.5000038, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Robotic Enhancer",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-48.0000305, 56.0000038, -81, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Pot of Gold-inator",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-63, 57.5000038, 33, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Vaporwave Vibe Visualizer",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-64.500061, 57.5000038, 9, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Spectral Purgatory",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(50.9999695, 9.50000381, -63, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Honeycomb Solace",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-75, 3.50000381, -25.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Holy Cheese",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-102, 11.0000038, -24, -1.1920929e-07, 0, -1.00000012, 0, 1, 0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Devil's Spore",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-106.5, 5.00000381, -48, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Meatball Sandwich",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-105, 3.50000381, -3, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Clover Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-105, 5.00000381, 30, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Leprechaun's Rune",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(12, 9.50000381, -97.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Ghost Town",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(66.0000305, 3.50000381, -33, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Pineapple Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(71.9999695, 51.5000038, -96, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Twitch-Powered Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-72.0000305, 5.00000381, 52.5, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Alien Relic",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-82.5, 12.5000038, 93, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Havium Mine",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-75.0000305, 3.50000381, 42, -1.1920929e-07, 0, -1.00000012, 0, 1, 0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Executive Pillars",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-63.0000305, 51.5000038, -18, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Statue of Knowledge",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-22.5000305, 8.00000381, 76.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("The Darkest Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-75, 36.5000038, 70.500061, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Methane Sky Fleet",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-63, 5.00000381, 100.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Energy Core",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-102, 8.00000381, 84, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("⭐ Storm Astral Setter ⭐",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(-9, 6.50000381, -9, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Son of Poison",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(24, 8.00000381, -5.99996948, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Father of Freon",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(63, 9.50000381, 36, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Mystical Thunder",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(104.999969, 27.5000038, 21, -1.1920929e-07, -0, -1.00000012, 0, 1, -0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Lunar Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(104.999969, 27.5000038, 9, -1.1920929e-07, -0, -1.00000012, 0, 1, -0, 1.00000012, 0, -1.1920929e-07) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Lunar Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(96, 30.5000038, 24, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Cupid's Arrow",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(84, 29.0000038, 15, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Spirit of Fire",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(62.999939, 32.0000038, 15, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Banana Sundae Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(87, 37.5000038, -40.5, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Dual Festive Refiner",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(105, 27.5000038, -4.5, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Professional Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(105, 27.5000038, -19.5, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Professional Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(93, 27.5000038, -4.5, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Professional Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(93, 27.5000038, -19.5, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Professional Upgrader",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(102.000061, 62.5000038, 12, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Solar Apocalypse",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(84, 56.0000038, 15, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Blazing Agriculture",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(62.999939, 63.5000038, -21, 0, 0, 1, 0, 1, -0, -1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Putrid Farmyard",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(6, 32.0000038, 64.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Ore Hypernova",  placehere, {myfac.Base}) 
+wait(0.01) 
+placehere = CFrame.new(6, 35.0000038, 81, 0, 0, -1, 0, 1, 0, 1, 0, 0) + Tycoon:FindFirstChild("Base").Position
+PlaceItem:InvokeServer("Swag City",  placehere, {myfac.Base}) 
+wait(0.01) 
