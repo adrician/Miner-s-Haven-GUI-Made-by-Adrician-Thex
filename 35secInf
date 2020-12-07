@@ -6,8 +6,9 @@ for i =1, #factorys do
         myfac = factorys[i] 
     end 
 end 
- local buyItem = game.ReplicatedStorage.BuyItem 
- 
+local buyItem = game.ReplicatedStorage.BuyItem 
+print("35 sec executed")
+
 placehere = CFrame.new(-93, 29.0000038, -48, 1, 0, 0, 0, 1, 0, 0, 0, 1) + Tycoon:FindFirstChild("Base").Position
 PlaceItem:InvokeServer("Hydraulic Standard Platform",  placehere, {myfac.Base}) 
 wait(0.01) 
