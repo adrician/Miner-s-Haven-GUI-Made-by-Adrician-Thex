@@ -6,8 +6,9 @@ for i =1, #factorys do
         myfac = factorys[i] 
     end 
 end 
- local buyItem = game.ReplicatedStorage.BuyItem 
- 
+local buyItem = game.ReplicatedStorage.BuyItem 
+print("10k cent executed")
+
 buyItem:InvokeServer("Basic Conveyor",1) 
 wait(0.01) 
 placehere = CFrame.new(-90, 2.00000381, 87, -1, 0, 0, 0, 1, 0, 0, 0, -1) + Tycoon:FindFirstChild("Base").Position
